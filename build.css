@@ -2211,6 +2211,177 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+@layer components {
+  .btn-primary {
+    margin-right: 2.5rem;
+  }
+
+  .btn-primary {
+    border-radius: 0.5rem;
+  }
+
+  .btn-primary {
+    --tw-bg-opacity: 1;
+    background-color: rgba(240, 84, 84, var(--tw-bg-opacity));
+  }
+
+  .btn-primary {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .btn-primary {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .btn-primary {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .btn-primary {
+    font-weight: 600;
+  }
+
+  .btn-primary {
+    --tw-text-opacity: 1;
+    color: rgba(221, 221, 221, var(--tw-text-opacity));
+  }
+
+  .btn-primary {
+    --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
+
+  .btn-primary {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+
+  .btn-primary:hover {
+    --tw-translate-y: -0.25rem;
+    transform: var(--tw-transform);
+  }
+
+  .btn-primary:hover {
+    transform: var(--tw-transform);
+  }
+
+  .btn-primary:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(255, 48, 38, var(--tw-bg-opacity));
+  }
+
+  .btn-primary:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+  }
+
+  .btn-primary:focus {
+    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+  }
+
+  .btn-primary:focus {
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(255, 48, 38, var(--tw-ring-opacity));
+  }
+
+  .btn-primary:focus {
+    --tw-ring-opacity: 0.5;
+  }
+
+  .btn-secondary {
+    margin-right: 2.5rem;
+  }
+
+  .btn-secondary {
+    border-radius: 0.5rem;
+  }
+
+  .btn-secondary {
+    --tw-bg-opacity: 1;
+    background-color: rgba(221, 221, 221, var(--tw-bg-opacity));
+  }
+
+  .btn-secondary {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .btn-secondary {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .btn-secondary {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .btn-secondary {
+    font-weight: 600;
+  }
+
+  .btn-secondary {
+    --tw-text-opacity: 1;
+    color: rgba(255, 48, 38, var(--tw-text-opacity));
+  }
+
+  .btn-secondary {
+    --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
+
+  .btn-secondary {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+
+  .btn-secondary:hover {
+    --tw-translate-y: -0.25rem;
+    transform: var(--tw-transform);
+  }
+
+  .btn-secondary:hover {
+    transform: var(--tw-transform);
+  }
+
+  .btn-secondary:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(240, 84, 84, var(--tw-bg-opacity));
+  }
+
+  .btn-secondary:hover {
+    --tw-text-opacity: 1;
+    color: rgba(221, 221, 221, var(--tw-text-opacity));
+  }
+
+  .btn-secondary:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+  }
+
+  .btn-secondary:focus {
+    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+  }
+
+  .btn-secondary:focus {
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgba(255, 48, 38, var(--tw-ring-opacity));
+  }
+
+  .btn-secondary:focus {
+    --tw-ring-opacity: 0.5;
+  }
+}
+
 .hover\:font-bold:hover {
   font-weight: 700;
 }
