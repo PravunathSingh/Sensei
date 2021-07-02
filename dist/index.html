@@ -10,12 +10,12 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sensei</title>
-<script type="module" crossorigin src="/assets/index.54dfaaf1.js"></script>
-  <link rel="stylesheet" href="/assets/index.7e54b257.css">
+<script type="module" crossorigin src="/assets/index.2a026764.js"></script>
+  <link rel="stylesheet" href="/assets/index.e3fad746.css">
 </head>
 
-<body class="bg-gray-200">
-  <nav class=" bg-brand-bg-primary">
+<body class="bg-brand-bg-primary">
+  <nav class="bg-brand-bg-primary">
     <div class="container py-4 shadow-lg lg:py-2 md:flex md:justify-between">
       <div class="flex items-center justify-between justify-items-center">
         <div>
@@ -32,6 +32,8 @@
       <div class="py-4 md:flex md:justify-items-center md:items-center" id="links">
         <a data-scroll href="#home"
           class="block mb-2 text-lg font-medium md:mb-0 text-brand-secondary hover:text-brand-primary smoothScroll">Home</a>
+        <a data-scroll href="#contact"
+          class="block mb-2 text-lg font-medium md:ml-6 md:mb-0 text-brand-secondary hover:text-brand-primary smoothScroll">About</a>
         <a data-scroll href="#tracks"
           class="block mb-2 text-lg font-medium md:mb-0 md:ml-6 text-brand-secondary hover:text-brand-primary smoothScroll">Tracks</a>
         <a data-scroll href="#faculty"
@@ -42,247 +44,272 @@
           class="block text-lg font-medium md:ml-6 text-brand-secondary hover:text-brand-primary smoothScroll">Contact</a>
       </div>
     </div>
-
-    <section class="container py-12" id="home">
-      <div class="flex flex-wrap-reverse items-center justify-center md:flex-nowrap md:justify-between sm:flex-row">
-        <div data-aos="zoom-in-up">
-          <div class="md:max-w-xl">
-            <h1 class="mb-4 text-4xl font-bold md:mb-8 lg:text-5xl text-brand-primary">Best Tutors with the click of a
-              button!!
-            </h1>
-            <p class="mb-8 text-lg font-normal text-brand-secondary">Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Praesentium corrupti perferendis officiis nesciunt
-              est tenetur.</p>
-          </div>
-          <button type="button" class="w-full mb-4 sm:w-auto btn-primary">Explore
-            <i class="fa fa-rocket"></i></button>
-          <button type="button" class="w-full btn-secondary sm:w-auto">Sign Up</button>
-        </div>
-
-        <div class="mt-8 mb-12 md:mt-0 md:mb-14" data-aos="zoom-in-up">
-          <img src="/assets/header.c4f1c1e0.png" alt="header img" class="w-auto h-60 md:h-72 lg:h-96">
-        </div>
-      </div>
-    </section>
-
-    <section class="container mt-24 mb-6 md:mt-20" id="tracks">
-      <div data-aos="fade-up">
-        <h1 class="mb-5 text-4xl font-bold text-center lg:text-5xl text-brand-primary">Provided Tracks</h1>
-        <p class="mb-16 text-xl font-semibold text-center text-brand-secondary">Choose What's BEST For Your Child</p>
-      </div>
-
-      <div class="grid gap-6 md:grid-cols-3 md:gap-4">
-        <div
-          class="grid grid-cols-2 shadow-xl place-content-center place-items-center rounded-xl bg-brand-bg-secondary md:flex md:flex-col md:justify-center md:items-center"
-          data-aos="zoom-in-up">
-          <div class="md:mt-8">
-            <img src="data:image/png;base64,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" alt="science icon" />
-          </div>
-          <div
-            class="grid gap-2 px-6 py-4 md:px-6 md:flex md:flex-col md:justify-center md:items-center md:justify-items-center">
-            <div>
-              <h4 class="mb-4 text-3xl font-bold md:text-center text-brand-secondary">Science</h4>
-              <p class="hidden mb-4 font-normal md:block md:text-center text-brand-secondary-dark md:text-lg">Lorem
-                ipsum, dolor sit
-                amet
-                consectetur
-                adipisicing
-                elit. Ipsam,
-                laudantium.</p>
-            </div>
-            <div class="mb-4">
-              <button type="button" class="rounded-full btn-primary">Details</button>
-            </div>
-          </div>
-        </div>
-        <div
-          class="grid grid-cols-2 shadow-xl place-content-center place-items-center rounded-xl bg-brand-bg-secondary md:flex md:flex-col md:justify-center md:items-center"
-          data-aos="zoom-in-up">
-          <div class="md:mt-8">
-            <img src="/assets/emojione-monotone_money-bag.8cfe7b9f.png" alt="science icon" />
-          </div>
-          <div
-            class="grid gap-2 px-6 py-4 md:px-6 md:flex md:flex-col md:justify-center md:items-center md:justify-items-center">
-            <div>
-              <h4 class="mb-4 text-3xl font-bold md:text-center text-brand-secondary">Commerce</h4>
-              <p class="hidden mb-4 font-normal md:block md:text-center text-brand-secondary-dark md:text-lg">Lorem
-                ipsum, dolor sit
-                amet
-                consectetur
-                adipisicing
-                elit. Ipsam,
-                laudantium.</p>
-            </div>
-            <div class="mb-4">
-              <button type="button" class="rounded-full btn-primary">Details</button>
-            </div>
-          </div>
-        </div>
-        <div
-          class="grid grid-cols-2 shadow-xl place-content-center place-items-center rounded-xl bg-brand-bg-secondary md:flex md:flex-col md:justify-center md:items-center"
-          data-aos="zoom-in-up">
-          <div class="md:mt-8">
-            <img src="data:image/png;base64,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" alt="science icon" />
-          </div>
-          <div
-            class="grid gap-2 px-6 py-4 md:px-6 md:flex md:flex-col md:justify-center md:items-center md:justify-items-center">
-            <div>
-              <h4 class="mb-4 text-3xl font-bold md:text-center text-brand-secondary">Arts</h4>
-              <p class="hidden mb-4 font-normal md:block md:text-center text-brand-secondary-dark md:text-lg">Lorem
-                ipsum, dolor sit
-                amet
-                consectetur
-                adipisicing
-                elit. Ipsam,
-                laudantium.</p>
-            </div>
-            <div class="mb-4">
-              <button type="button" class="rounded-full btn-primary">Details</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="container mt-36" id="faculty" data-aos="fade-up">
-      <div>
-        <h1 class="text-4xl font-bold text-center md:mb-20 md:text-5xl text-brand-primary">Learn from the TOP Faculty
-        </h1>
-      </div>
-      <div class="grid gap-6 place-content-center place-items-center md:grid-cols-2">
-        <div>
-          <img src="/assets/faculty.df5fff08.png" alt="faculty" class="w-auto h-72 md:h-96">
-        </div>
-
-        <div class="md:grid md:place-content-center md:place-items-center">
-          <p class="mb-8 text-2xl font-semibold text-center md:text-4xl text-brand-secondary">The best mentor your child
-            can
-            get.
-            Educators with 10+ years of expericnce in the industry</p>
-          <button type="button" class="w-full btn-primary md:w-auto">View Faculty</button>
-        </div>
-      </div>
-    </section>
-
-    <section class="container" id="testimonials" data-aos="zoom-in-up">
-      <div class="mt-24 mb-12">
-        <h1 class="mb-8 text-4xl font-bold text-center md:text-5xl text-brand-primary">See what our students have to say
-        </h1>
-        <p class="text-lg font-normal text-center text-brand-secondary">More than 10,000 students are learning concepts
-          int the best
-          possible way. All from the comfort of their home</p>
-      </div>
-      <div class="grid md:grid-cols-3 gap-x-4">
-        <div class="max-w-md px-8 py-4 mt-20 mb-20 rounded-lg shadow-lg bg-brand-bg-secondary" data-aos="zoom-in-up">
-          <div>
-            <div class="flex justify-center -mt-20 md:justify-center">
-              <img class="object-cover border-2 rounded-full w-28 h-28 border-brand-primary"
-                src="https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" />
-            </div>
-            <div>
-              <div class="flex justify-center mt-4">
-                <a href="#" class="text-2xl font-bold text-brand-secondary">John Doe</a>
-              </div>
-              <p class="mt-2 text-brand-secondary-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-                dolores
-                deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis
-                pariatur minus consequuntur!</p>
-            </div>
-          </div>
-        </div>
-        <div class="max-w-md px-8 py-4 mb-20 rounded-lg shadow-lg bg-brand-bg-secondary md:my-20" data-aos="zoom-in-up">
-          <div>
-            <div class="flex justify-center -mt-20 md:justify-center">
-              <img class="object-cover border-2 rounded-full w-28 h-28 border-brand-primary"
-                src="https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" />
-            </div>
-            <div>
-              <div class="flex justify-center mt-4">
-                <a href="#" class="text-2xl font-bold text-brand-secondary">John Doe</a>
-              </div>
-              <p class="mt-2 text-brand-secondary-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-                dolores
-                deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis
-                pariatur minus consequuntur!</p>
-            </div>
-          </div>
-        </div>
-        <div class="max-w-md px-8 py-4 mb-20 rounded-lg shadow-lg bg-brand-bg-secondary md:my-20" data-aos="zoom-in-up">
-          <div>
-            <div class="flex justify-center -mt-20 md:justify-center">
-              <img class="object-cover border-2 rounded-full w-28 h-28 border-brand-primary"
-                src="https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" />
-            </div>
-            <div>
-              <div class="flex justify-center mt-4">
-                <a href="#" class="text-2xl font-bold text-brand-secondary">John Doe</a>
-              </div>
-              <p class="mt-2 text-brand-secondary-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-                dolores
-                deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis
-                pariatur minus consequuntur!</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="container mt-16" id="contact">
-      <div class="mb-16 md:mb-24" data-aos="fade-up">
-        <h1 class="text-4xl font-bold text-center md:text-5xl text-brand-primary">Want To Share Something?</h1>
-      </div>
-
-      <div class="flex flex-col justify-between md:flex-row md:items-stretch md:justify-around">
-        <div class="px-6 py-4 mb-16 shadow-xl bg-brand-bg-secondary rounded-2xl" data-aos="zoom-in-up">
-          <form>
-            <div class="mb-4 shadow-lg">
-              <h6 class="mb-2 text-xl font-semibold text-brand-secondary">Name</h6>
-              <input type="text"
-                class="w-full px-5 py-3 text-lg font-normal bg-brand-bg-primary rounded-xl text-brand-secondary required focus:border-brand-bg-primary focus:outline-none focus:ring-brand-bg-primary focus:ring-opacity-60">
-            </div>
-            <div class="mb-4 shadow-lg">
-              <h6 class="mb-2 text-xl font-semibold text-brand-secondary">Email</h6>
-              <input type="email"
-                class="w-full px-5 py-3 text-lg font-normal focus:outline-none bg-brand-bg-primary rounded-xl text-brand-secondary required focus:border-brand-bg-primary focus:ring-brand-bg-primary focus:ring-opacity-60">
-            </div>
-            <div class="mb-4 shadow-lg">
-              <h6 class="mb-2 text-xl font-semibold text-brand-secondary">Message</h6>
-              <textarea cols="30" rows="10"
-                class="w-full px-5 py-3 text-lg font-normal focus:outline-none bg-brand-bg-primary rounded-xl text-brand-secondary required focus:border-brand-bg-primary focus:ring-brand-bg-primary focus:ring-opacity-60"></textarea>
-            </div>
-            <div class="mb-2">
-              <button type="button" class="w-full font-bold btn-primary">Send <i class="fa fa-paper-plane"></i>
-              </button>
-            </div>
-          </form>
-        </div>
-
-        <div data-aos="zoom-in-up">
-          <h1 class="mb-8 text-2xl font-bold text-center md:text-3xl text-brand-secondary md:mb-14">Connect With Us</h1>
-          <div class="grid grid-cols-4 gap-4 mb-20 md:grid-cols-2 md:grid-rows-2 md:gap-y-8">
-            <div>
-              <a href="#" class=""><i
-                  class="transition-all rounded-full fab fa-facebook fa-5x text-brand-secondary hover:text-brand-primary"></i></a>
-            </div>
-            <div>
-              <a href="#" class=""><i
-                  class="transition-all rounded-full fab fa-twitter fa-5x text-brand-secondary hover:text-brand-primary"></i></a>
-            </div>
-            <div>
-              <a href="#" class=""><i
-                  class="transition-all rounded-full fab fa-linkedin fa-5x text-brand-secondary hover:text-brand-primary"></i></a>
-            </div>
-            <div>
-              <a href="#" class=""><i
-                  class="transition-all rounded-full fab fa-instagram fa-5x text-brand-secondary hover:text-brand-primary"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
   </nav>
+
+  <section class="container py-12 md:my-24" id="home">
+    <div class="flex flex-wrap-reverse items-center justify-center md:flex-nowrap md:justify-between sm:flex-row">
+      <div data-aos="zoom-in-up">
+        <div class="md:max-w-xl">
+          <h1 class="mb-4 text-4xl font-bold text-center md:text-left md:mb-8 lg:text-5xl text-brand-primary">Best
+            Tutors with the click of a
+            button!!
+          </h1>
+          <p class="mb-8 text-lg font-normal text-center md:text-left text-brand-secondary">Lorem ipsum dolor sit amet
+            consectetur adipisicing
+            elit. Praesentium corrupti perferendis officiis nesciunt
+            est tenetur.</p>
+        </div>
+        <button type="button" class="w-full mb-4 sm:w-auto btn-primary">Explore
+          <i class="fa fa-rocket"></i></button>
+        <button type="button" class="w-full btn-secondary sm:w-auto">Sign Up</button>
+      </div>
+
+      <div class="mt-8 mb-12 md:mt-0 md:mb-14" data-aos="zoom-in-up">
+        <img src="/assets/header.c4f1c1e0.png" alt="header img" class="w-auto h-60 md:h-72 lg:h-96">
+      </div>
+    </div>
+  </section>
+
+  <section class="container my-11" id="about">
+    <div data-aos="zoom-in-up" class="mb-20">
+      <h1 class="mb-8 text-4xl font-bold text-center md:text-5xl text-brand-primary">Who we are and what we do</h1>
+      <div class="px-0 lg:px-40">
+        <p class="text-lg font-normal text-center text-brand-secondary">We are group of passionate and motivated
+          individuals who share a common love for technology and we driven towards disrupting the EdTech Space with
+          the
+          help of technology</p>
+      </div>
+    </div>
+
+    <div class="grid grid-rows-3 gap-6 place-content-center place-items-center md:grid-cols-3" data-aos="zoom-in-up">
+      <div
+        class="p-8 text-xl font-medium text-center rounded-full shadow-xl bg-brand-bg-secondary border-brand-primary text-brand-secondary">
+        25 Builders</div>
+      <div
+        class="p-8 text-xl font-medium text-center rounded-full shadow-xl bg-brand-bg-secondary border-brand-primary text-brand-secondary">
+        30 Faculty Members</div>
+      <div
+        class="p-8 text-xl font-medium text-center rounded-full shadow-xl bg-brand-bg-secondary border-brand-primary text-brand-secondary">
+        7000+ Students Impacted</div>
+    </div>
+  </section>
+
+  <section class="container my-20 md:my-10" id="tracks">
+    <div data-aos="fade-up">
+      <h1 class="mb-5 text-4xl font-bold text-center lg:text-5xl text-brand-primary">Provided Tracks</h1>
+      <p class="mb-16 text-xl font-semibold text-center text-brand-secondary">Choose What's BEST For Your Child</p>
+    </div>
+
+    <div class="grid gap-6 md:grid-cols-3 md:gap-4">
+      <div
+        class="grid grid-cols-2 shadow-xl place-content-center place-items-center rounded-xl bg-brand-bg-secondary md:flex md:flex-col md:justify-center md:items-center"
+        data-aos="zoom-in-up">
+        <div class="md:mt-8">
+          <img src="data:image/png;base64,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" alt="science icon" />
+        </div>
+        <div
+          class="grid gap-2 px-6 py-4 md:px-6 md:flex md:flex-col md:justify-center md:items-center md:justify-items-center">
+          <div>
+            <h4 class="mb-4 text-3xl font-bold md:text-center text-brand-secondary">Science</h4>
+            <p class="hidden mb-4 font-normal md:block md:text-center text-brand-secondary-dark md:text-lg">Lorem
+              ipsum, dolor sit
+              amet
+              consectetur
+              adipisicing
+              elit. Ipsam,
+              laudantium.</p>
+          </div>
+          <div class="mb-4">
+            <a href="/trackDetails.html"><button type="button" class="rounded-full btn-primary">Details</button></a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-2 shadow-xl place-content-center place-items-center rounded-xl bg-brand-bg-secondary md:flex md:flex-col md:justify-center md:items-center"
+        data-aos="zoom-in-up">
+        <div class="md:mt-8">
+          <img src="/assets/emojione-monotone_money-bag.8cfe7b9f.png" alt="science icon" />
+        </div>
+        <div
+          class="grid gap-2 px-6 py-4 md:px-6 md:flex md:flex-col md:justify-center md:items-center md:justify-items-center">
+          <div>
+            <h4 class="mb-4 text-3xl font-bold md:text-center text-brand-secondary">Commerce</h4>
+            <p class="hidden mb-4 font-normal md:block md:text-center text-brand-secondary-dark md:text-lg">Lorem
+              ipsum, dolor sit
+              amet
+              consectetur
+              adipisicing
+              elit. Ipsam,
+              laudantium.</p>
+          </div>
+          <div class="mb-4">
+            <a href="/trackDetails.html"><button type="button" class="rounded-full btn-primary">Details</button></a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-2 shadow-xl place-content-center place-items-center rounded-xl bg-brand-bg-secondary md:flex md:flex-col md:justify-center md:items-center"
+        data-aos="zoom-in-up">
+        <div class="md:mt-8">
+          <img src="data:image/png;base64,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" alt="science icon" />
+        </div>
+        <div
+          class="grid gap-2 px-6 py-4 md:px-6 md:flex md:flex-col md:justify-center md:items-center md:justify-items-center">
+          <div>
+            <h4 class="mb-4 text-3xl font-bold md:text-center text-brand-secondary">Arts</h4>
+            <p class="hidden mb-4 font-normal md:block md:text-center text-brand-secondary-dark md:text-lg">Lorem
+              ipsum, dolor sit
+              amet
+              consectetur
+              adipisicing
+              elit. Ipsam,
+              laudantium.</p>
+          </div>
+          <div class="mb-4">
+            <a href="/trackDetails.html"><button type="button" class="rounded-full btn-primary">Details</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container my-32" id="faculty" data-aos="fade-up">
+    <div>
+      <h1 class="text-4xl font-bold text-center md:mb-20 md:text-5xl text-brand-primary">Learn from the TOP Faculty
+      </h1>
+    </div>
+    <div class="grid gap-6 place-content-center place-items-center md:grid-cols-2">
+      <div>
+        <img src="/assets/faculty.df5fff08.png" alt="faculty" class="w-auto h-72 md:h-96">
+      </div>
+
+      <div class="md:grid md:place-content-center md:place-items-center">
+        <p class="mb-8 text-2xl font-semibold text-center md:text-4xl text-brand-secondary">The best mentor your child
+          can
+          get.
+          Educators with 10+ years of expericnce in the industry</p>
+        <a href="./faculty.html"><button type="button" class="w-full btn-primary md:w-auto">View Faculty</button></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container my-32" id="testimonials" data-aos="zoom-in-up">
+    <div>
+      <h1 class="mb-8 text-4xl font-bold text-center md:text-5xl text-brand-primary">See what our students have to say
+      </h1>
+      <p class="text-lg font-normal text-center text-brand-secondary">More than 10,000 students are learning concepts
+        int the best
+        possible way. All from the comfort of their home</p>
+    </div>
+    <div class="grid md:grid-cols-3 gap-x-4">
+      <div class="max-w-md px-8 py-4 mt-20 mb-20 rounded-lg shadow-lg bg-brand-bg-secondary" data-aos="zoom-in-up">
+        <div>
+          <div class="flex justify-center -mt-20 md:justify-center">
+            <img class="object-cover border-2 rounded-full w-28 h-28 border-brand-primary"
+              src="https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" />
+          </div>
+          <div>
+            <div class="flex justify-center mt-4">
+              <a href="#" class="text-2xl font-bold text-brand-secondary">John Doe</a>
+            </div>
+            <p class="mt-2 text-brand-secondary-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              dolores
+              deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis
+              pariatur minus consequuntur!</p>
+          </div>
+        </div>
+      </div>
+      <div class="max-w-md px-8 py-4 mb-20 rounded-lg shadow-lg bg-brand-bg-secondary md:my-20" data-aos="zoom-in-up">
+        <div>
+          <div class="flex justify-center -mt-20 md:justify-center">
+            <img class="object-cover border-2 rounded-full w-28 h-28 border-brand-primary"
+              src="https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" />
+          </div>
+          <div>
+            <div class="flex justify-center mt-4">
+              <a href="#" class="text-2xl font-bold text-brand-secondary">John Doe</a>
+            </div>
+            <p class="mt-2 text-brand-secondary-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              dolores
+              deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis
+              pariatur minus consequuntur!</p>
+          </div>
+        </div>
+      </div>
+      <div class="max-w-md px-8 py-4 mb-20 rounded-lg shadow-lg bg-brand-bg-secondary md:my-20" data-aos="zoom-in-up">
+        <div>
+          <div class="flex justify-center -mt-20 md:justify-center">
+            <img class="object-cover border-2 rounded-full w-28 h-28 border-brand-primary"
+              src="https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" />
+          </div>
+          <div>
+            <div class="flex justify-center mt-4">
+              <a href="#" class="text-2xl font-bold text-brand-secondary">John Doe</a>
+            </div>
+            <p class="mt-2 text-brand-secondary-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              dolores
+              deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis
+              pariatur minus consequuntur!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container mt-32 mb-12" id="contact">
+    <div class="mb-16 md:mb-24" data-aos="fade-up">
+      <h1 class="text-4xl font-bold text-center md:text-5xl text-brand-primary">Want To Share Something?</h1>
+    </div>
+
+    <div class="flex flex-col justify-between md:flex-row md:items-stretch md:justify-around">
+      <div class="px-6 py-4 mb-16 shadow-xl bg-brand-bg-secondary rounded-2xl" data-aos="zoom-in-up">
+        <form>
+          <div class="mb-4 shadow-lg">
+            <h6 class="mb-2 text-xl font-semibold text-brand-secondary">Name</h6>
+            <input type="text"
+              class="w-full px-5 py-3 text-lg font-normal bg-brand-bg-primary rounded-xl text-brand-secondary required focus:border-brand-bg-primary focus:outline-none focus:ring-brand-bg-primary focus:ring-opacity-60">
+          </div>
+          <div class="mb-4 shadow-lg">
+            <h6 class="mb-2 text-xl font-semibold text-brand-secondary">Email</h6>
+            <input type="email"
+              class="w-full px-5 py-3 text-lg font-normal focus:outline-none bg-brand-bg-primary rounded-xl text-brand-secondary required focus:border-brand-bg-primary focus:ring-brand-bg-primary focus:ring-opacity-60">
+          </div>
+          <div class="mb-4 shadow-lg">
+            <h6 class="mb-2 text-xl font-semibold text-brand-secondary">Message</h6>
+            <textarea cols="30" rows="10"
+              class="w-full px-5 py-3 text-lg font-normal focus:outline-none bg-brand-bg-primary rounded-xl text-brand-secondary required focus:border-brand-bg-primary focus:ring-brand-bg-primary focus:ring-opacity-60"></textarea>
+          </div>
+          <div class="mb-2">
+            <button type="button" class="w-full font-bold btn-primary">Send <i class="fa fa-paper-plane"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <div data-aos="zoom-in-up">
+        <h1 class="mb-8 text-2xl font-bold text-center md:text-3xl text-brand-secondary md:mb-14">Connect With Us</h1>
+        <div class="grid grid-cols-4 gap-4 mb-20 md:grid-cols-2 md:grid-rows-2 md:gap-y-8">
+          <div>
+            <a href="#" class=""><i
+                class="transition-all rounded-full fab fa-facebook fa-5x text-brand-secondary hover:text-brand-primary"></i></a>
+          </div>
+          <div>
+            <a href="#" class=""><i
+                class="transition-all rounded-full fab fa-twitter fa-5x text-brand-secondary hover:text-brand-primary"></i></a>
+          </div>
+          <div>
+            <a href="#" class=""><i
+                class="transition-all rounded-full fab fa-linkedin fa-5x text-brand-secondary hover:text-brand-primary"></i></a>
+          </div>
+          <div>
+            <a href="#" class=""><i
+                class="transition-all rounded-full fab fa-instagram fa-5x text-brand-secondary hover:text-brand-primary"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
