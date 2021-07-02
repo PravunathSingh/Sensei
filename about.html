@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sensei</title>
+</head>
+
+<body class="bg-brand-bg-primary">
+  <nav class="bg-brand-bg-primary">
+    <div class="container py-4 shadow-lg lg:py-2 md:flex md:justify-between">
+      <div class="flex items-center justify-between justify-items-center">
+        <div>
+          <a href="/" class="text-4xl font-bold lg:text-5xl text-brand-primary">Sensei</a>
+        </div>
+
+        <div class="md:hidden">
+          <button type="button" class="block" id="menuBtn">
+            <i class="fa fa-dropdown fa-bars fa-2x text-brand-secondary hover:text-brand-primary" id="menuIcon"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="py-4 md:flex md:justify-items-center md:items-center" id="links">
+        <a data-scroll href="/"
+          class="block mb-2 text-lg font-medium md:mb-0 text-brand-secondary hover:text-brand-primary smoothScroll">Home</a>
+        <a data-scroll href="./about.html"
+          class="block mb-2 text-lg font-medium md:ml-6 md:mb-0 text-brand-secondary hover:text-brand-primary smoothScroll">About</a>
+        <a data-scroll href="./trackDetails.html"
+          class="block mb-2 text-lg font-medium md:mb-0 md:ml-6 text-brand-secondary hover:text-brand-primary smoothScroll">Tracks</a>
+        <a data-scroll href="./faculty.html"
+          class="block mb-2 text-lg font-medium md:mb-0 md:ml-6 text-brand-secondary hover:text-brand-primary smoothScroll">Faculty</a>
+        <a data-scroll href="./contact.html"
+          class="block text-lg font-medium md:ml-6 text-brand-secondary hover:text-brand-primary smoothScroll">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="container mt-24 mb-20 md:mb-16" id="about">
+    <div data-aos="zoom-in-up" class="mb-20">
+      <h1 class="mb-8 text-4xl font-bold text-center md:text-5xl text-brand-primary">Who we are and what we do</h1>
+      <div class="px-0 lg:px-40">
+        <p class="text-lg font-normal text-center text-brand-secondary">We are group of passionate and motivated
+          individuals who share a common love for technology and we driven towards disrupting the EdTech Space with
+          the
+          help of technology</p>
+        <br>
+        <br>
+        <p class="text-base font-normal text-center text-brand-secondary-dark">Lorem, ipsum dolor sit amet consectetur
+          adipisicing elit. Magni, vel. Optio minima impedit unde sequi? Ea aliquid ut repellendus! Vel dignissimos
+          autem tenetur, suscipit unde quidem in dolor reprehenderit enim quod ipsa id assumenda necessitatibus
+          provident molestias eligendi? Deleniti, quae.</p>
+      </div>
+    </div>
+
+    <div class="grid grid-rows-3 gap-6 place-content-center place-items-center md:grid-cols-3" data-aos="zoom-in-up">
+      <div
+        class="p-8 text-xl font-medium text-center rounded-full shadow-xl bg-brand-bg-secondary border-brand-primary text-brand-secondary">
+        25 Builders</div>
+      <div
+        class="p-8 text-xl font-medium text-center rounded-full shadow-xl bg-brand-bg-secondary border-brand-primary text-brand-secondary">
+        30 Faculty Members</div>
+      <div
+        class="p-8 text-xl font-medium text-center rounded-full shadow-xl bg-brand-bg-secondary border-brand-primary text-brand-secondary">
+        7000+ Students Impacted</div>
+    </div>
+  </section>
+
+  <section class="container mb-16">
+    <div class="mb-40" data-aos="zoom-in-up">
+      <h1 class="mb-8 text-4xl font-bold text-center md:text-5xl text-brand-primary">Meet Our Team</h1>
+      <p class="text-lg font-normal text-center text-brand-secondary">Lorem ipsum, dolor sit amet consectetur
+        adipisicing elit. Numquam mollitia doloribus ipsam aliquam sequi voluptas.</p>
+    </div>
+
+    <div class="grid gap-4 md:grid-cols-3">
+      <div
+        class="flex flex-row items-center justify-between p-5 mb-32 rounded-lg shadow-xl md:flex-col bg-brand-bg-secondary"
+        data-aos="zoom-in-up">
+        <div class="-mt-24">
+          <img
+            src="https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
+            alt="" class="object-cover w-40 h-40 border-2 rounded-lg md:rounded-full border-brand-primary md:mb-4">
+        </div>
+        <div class="flex flex-col items-center justify-center">
+          <div>
+            <h1 class="mb-2 text-2xl font-bold text-center md:text-3xl text-brand-primary">John Doe</h1>
+            <h1 class="mb-4 text-xl font-semibold text-center text-brand-secondary">Co-Founder and CEO</h1>
+          </div>
+          <div class="grid grid-cols-3 gap-4">
+            <div>
+              <a href="#"><i class="text-2xl fab fa-github text-brand-secondary-dark hover:text-brand-primary"></i></a>
+            </div>
+            <div>
+              <a href="#"><i
+                  class="text-2xl fab fa-linkedin text-brand-secondary-dark hover:text-brand-primary"></i></a>
+            </div>
+            <div>
+              <a href="#"><i class="text-2xl fab fa-twitter text-brand-secondary-dark hover:text-brand-primary"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex flex-row items-center justify-between p-5 mb-32 rounded-lg shadow-xl md:flex-col bg-brand-bg-secondary"
+        data-aos="zoom-in-up">
+        <div class="-mt-24">
+          <img
+            src="https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
+            alt="" class="object-cover w-40 h-40 border-2 rounded-lg md:rounded-full border-brand-primary md:mb-4">
+        </div>
+        <div class="flex flex-col items-center justify-center">
+          <div>
+            <h1 class="mb-2 text-2xl font-bold text-center md:text-3xl text-brand-primary">John Doe</h1>
+            <h1 class="mb-4 text-xl font-semibold text-center text-brand-secondary">Co-Founder and CTO</h1>
+          </div>
+          <div class="grid grid-cols-3 gap-4">
+            <div>
+              <a href="#"><i class="text-2xl fab fa-github text-brand-secondary-dark hover:text-brand-primary"></i></a>
+            </div>
+            <div>
+              <a href="#"><i
+                  class="text-2xl fab fa-linkedin text-brand-secondary-dark hover:text-brand-primary"></i></a>
+            </div>
+            <div>
+              <a href="#"><i class="text-2xl fab fa-twitter text-brand-secondary-dark hover:text-brand-primary"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex flex-row items-center justify-between p-5 mb-32 rounded-lg shadow-xl md:flex-col bg-brand-bg-secondary"
+        data-aos="zoom-in-up">
+        <div class="-mt-24">
+          <img
+            src="https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
+            alt="" class="object-cover w-40 h-40 border-2 rounded-lg md:rounded-full border-brand-primary md:mb-4">
+        </div>
+        <div class="flex flex-col items-center justify-center">
+          <div>
+            <h1 class="mb-2 text-2xl font-bold text-center md:text-3xl text-brand-primary">John Doe</h1>
+            <h1 class="mb-4 text-xl font-semibold text-center text-brand-secondary">Chief Financial Officer</h1>
+          </div>
+          <div class="grid grid-cols-3 gap-4">
+            <div>
+              <a href="#"><i class="text-2xl fab fa-github text-brand-secondary-dark hover:text-brand-primary"></i></a>
+            </div>
+            <div>
+              <a href="#"><i
+                  class="text-2xl fab fa-linkedin text-brand-secondary-dark hover:text-brand-primary"></i></a>
+            </div>
+            <div>
+              <a href="#"><i class="text-2xl fab fa-twitter text-brand-secondary-dark hover:text-brand-primary"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex flex-row items-center justify-between p-5 mb-32 rounded-lg shadow-xl md:flex-col bg-brand-bg-secondary"
+        data-aos="zoom-in-up">
+        <div class="-mt-24">
+          <img
+            src="https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
+            alt="" class="object-cover w-40 h-40 border-2 rounded-lg md:rounded-full border-brand-primary md:mb-4">
+        </div>
+        <div class="flex flex-col items-center justify-center">
+          <div>
+            <h1 class="mb-2 text-2xl font-bold text-center md:text-3xl text-brand-primary">John Doe</h1>
+            <h1 class="mb-4 text-xl font-semibold text-center text-brand-secondary">Director of Engineering</h1>
+          </div>
+          <div class="grid grid-cols-3 gap-4">
+            <div>
+              <a href="#"><i class="text-2xl fab fa-github text-brand-secondary-dark hover:text-brand-primary"></i></a>
+            </div>
+            <div>
+              <a href="#"><i
+                  class="text-2xl fab fa-linkedin text-brand-secondary-dark hover:text-brand-primary"></i></a>
+            </div>
+            <div>
+              <a href="#"><i class="text-2xl fab fa-twitter text-brand-secondary-dark hover:text-brand-primary"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex flex-row items-center justify-between p-5 mb-32 rounded-lg shadow-xl md:flex-col bg-brand-bg-secondary"
+        data-aos="zoom-in-up">
+        <div class="-mt-24">
+          <img
+            src="https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
+            alt="" class="object-cover w-40 h-40 border-2 rounded-lg md:rounded-full border-brand-primary md:mb-4">
+        </div>
+        <div class="flex flex-col items-center justify-center">
+          <div>
+            <h1 class="mb-2 text-2xl font-bold text-center md:text-3xl text-brand-primary">John Doe</h1>
+            <h1 class="mb-4 text-xl font-semibold text-center text-brand-secondary">Lead Product Designer</h1>
+          </div>
+          <div class="grid grid-cols-3 gap-4">
+            <div>
+              <a href="#"><i class="text-2xl fab fa-github text-brand-secondary-dark hover:text-brand-primary"></i></a>
+            </div>
+            <div>
+              <a href="#"><i
+                  class="text-2xl fab fa-linkedin text-brand-secondary-dark hover:text-brand-primary"></i></a>
+            </div>
+            <div>
+              <a href="#"><i class="text-2xl fab fa-twitter text-brand-secondary-dark hover:text-brand-primary"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex flex-row items-center justify-between p-5 mb-10 rounded-lg shadow-xl md:mb-32 md:flex-col bg-brand-bg-secondary"
+        data-aos="zoom-in-up">
+        <div class="-mt-24">
+          <img
+            src="https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
+            alt="" class="object-cover w-40 h-40 border-2 rounded-lg md:rounded-full border-brand-primary md:mb-4">
+        </div>
+        <div class="flex flex-col items-center justify-center">
+          <div>
+            <h1 class="mb-2 text-2xl font-bold text-center md:text-3xl text-brand-primary">John Doe</h1>
+            <h1 class="mb-4 text-xl font-semibold text-center text-brand-secondary">HR Department Head</h1>
+          </div>
+          <div class="grid grid-cols-3 gap-4">
+            <div>
+              <a href="#"><i class="text-2xl fab fa-github text-brand-secondary-dark hover:text-brand-primary"></i></a>
+            </div>
+            <div>
+              <a href="#"><i
+                  class="text-2xl fab fa-linkedin text-brand-secondary-dark hover:text-brand-primary"></i></a>
+            </div>
+            <div>
+              <a href="#"><i class="text-2xl fab fa-twitter text-brand-secondary-dark hover:text-brand-primary"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
